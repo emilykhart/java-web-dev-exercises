@@ -9,6 +9,7 @@ public class AreaRectangle {
         Integer widthRect = input.nextInt();
         Integer areaRect = widthRect * lengthRect;
         System.out.println("The area of your rectangle is " + areaRect);
+        //input.skip("\n"); skips the enter
         input.close();
     }
 }
